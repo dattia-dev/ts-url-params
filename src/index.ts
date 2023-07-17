@@ -101,7 +101,7 @@ try {
     typeId: "number=-1",
     type: "string=DefaultType",
     debug: "boolean=true"
-  }).parse("https://www.example.com/api/endpoint?caseId=4&clientId=7h2");
+  }).parse("https://www.example.com/api/endpoint?caseId=4&clientId=72");
 
   console.log(parsed);
 } catch (e) { console.error(e); }
